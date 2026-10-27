@@ -1,0 +1,28 @@
+{
+  "name": "rolevex-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ROLEVEX — premium dashboard for the ROLEVEX Discord temp-role management bot.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lucide-react": "^0.475.0",
+    "mongoose": "^8.9.5",
+    "next": "^14.2.25",
+    "next-auth": "^4.24.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
