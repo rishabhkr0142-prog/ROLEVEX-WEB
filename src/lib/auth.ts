@@ -11,7 +11,7 @@ export const authOptions: NextAuthOptions = {
       clientSecret: process.env.DISCORD_CLIENT_SECRET ?? "",
       // Discord now returns the RFC 9207 `iss` param in the callback, so
       // next-auth needs the issuer configured to validate it.
-      issuer: "https://discord.com/oauth2",
+      issuer: "https://discord.com",
       // `guilds` is required to list the user's servers on the dashboard.
       authorization: { params: { scope: "identify guilds" } },
     }),
